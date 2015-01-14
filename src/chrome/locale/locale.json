@@ -1,0 +1,9 @@
+{
+  "locales": [
+    "en",
+    "fr"
+  ],
+  "resources": [
+    "./{{locale}}.l20n"
+  ]
+}

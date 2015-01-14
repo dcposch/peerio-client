@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\chrome\index.html" />
+    <None Include="THREATMODEL.md" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".jshintrc" />
+    <None Include="CONTRIBUTING.md" />
+    <None Include="lint.cmd" />
+    <None Include="Makefile" />
+    <None Include="README.md" />
+    <None Include="RESOURCES.md" />
+    <None Include="src\chrome\js\peerio\util.js" />
+    <None Include="src\chrome\js\peerio\config.js" />
+    <None Include="src\chrome\js\peerio\crypto.js" />
+    <None Include="src\chrome\js\peerio\file.js" />
+    <None Include="src\chrome\js\peerio\message.js" />
+    <None Include="src\chrome\js\peerio\network.js" />
+    <None Include="src\chrome\js\peerio\notification.js" />
+    <None Include="src\chrome\js\peerio\peerio.js" />
+    <None Include="src\chrome\js\peerio\socket.js" />
+    <None Include="src\chrome\js\peerio\socketworker.js" />
+    <None Include="src\chrome\js\peerio\storage.js" />
+    <None Include="src\chrome\js\peerio\ui.js" />
+    <None Include="src\chrome\js\peerio\user.js" />
+    <None Include="src\chrome\css\ui.css" />
+    <None Include="src\chrome\css\lib\utip.css" />
+    <None Include="src\chrome\css\lib\hotkeys.css" />
+    <None Include="src\chrome\css\lib\reset.css" />
+    <None Include="src\chrome\css\lib\sweet-alert.css" />
+    <None Include="src\chrome\css\lib\angular-csp.css" />
+    <None Include="src\chrome\js\miniLock\phrase.js" />
+    <None Include="src\chrome\js\miniLock\miniLock.js" />
+    <None Include="src\chrome\js\lib\zxcvbn.js" />
+    <None Include="src\chrome\js\lib\angular.js" />
+    <None Include="src\chrome\js\lib\base58.js" />
+    <None Include="src\chrome\js\lib\hotkeys.js" />
+    <None Include="src\chrome\js\lib\identicon.js" />
+    <None Include="src\chrome\js\lib\jszip.js" />
+    <None Include="src\chrome\js\lib\l20n.js" />
+    <None Include="src\chrome\js\lib\pnglib.js" />
+    <None Include="src\chrome\js\lib\qrcode.js" />
+    <None Include="src\chrome\js\lib\socket.js" />
+    <None Include="src\chrome\js\lib\sweet-alert.js" />
+    <None Include="src\chrome\js\lib\utip.js" />
+    <None Include="src\chrome\js\lib\zepto.js" />
+    <None Include="src\chrome\js\lib\crypto\scrypt.js" />
+    <None Include="src\chrome\js\lib\crypto\blake2s.js" />
+    <None Include="src\chrome\js\lib\crypto\nacl.js" />
+    <None Include="src\chrome\js\lib\crypto\nacl-stream.js" />
+    <None Include="src\chrome\locale\en-US.l20n" />
+    <None Include="src\chrome\locale\fr.l20n" />
+    <None Include="src\chrome\manifest.json" />
+    <None Include="src\chrome\background.js" />
+    <None Include="src\chrome\snd\destroy.ogg" />
+    <None Include="src\chrome\snd\received.ogg" />
+    <None Include="src\chrome\snd\sending.ogg" />
+    <None Include="src\chrome\snd\sent.ogg" />
+    <None Include="src\chrome\woff\centuryGothic.woff" />
+    <None Include="src\chrome\woff\centuryGothicBold.woff" />
+    <None Include="src\chrome\woff\fontAwesome.woff" />
+    <None Include="src\chrome\woff\glyphishFilled.woff" />
+    <None Include="src\chrome\woff\glyphishOutlined.woff" />
+    <None Include="src\chrome\woff\inconsolata.woff" />
+    <None Include="src\chrome\woff\openSans.woff" />
+    <None Include="src\chrome\woff\openSansBold.woff" />
+    <None Include="src\chrome\woff\openSansBoldItalic.woff" />
+    <None Include="src\chrome\woff\openSansItalic.woff" />
+    <None Include="src\chrome\js\peerio\ui\UI.twoFactorAuth.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.accountSettings.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.addContact.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.attachFile.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.contactsSection.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.downloadFile.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.filesSection.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.frontModals.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.loginForm.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.mainTop.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.messagesSection.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.newMessage.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.preferences.js" />
+    <None Include="src\chrome\js\peerio\ui\UI.signupForms.js" />
+    <None Include="src\chrome\js\lib\angular-sanitize.js" />
+    <None Include="src\windows\nw.pak" />
+    <None Include="src\windows\ffmpegsumo.dll" />
+    <None Include="src\windows\icudtl.dat" />
+    <None Include="src\windows\libEGL.dll" />
+    <None Include="src\windows\libGLESv2.dll" />
+    <None Include="src\windows\locales\zh-TW.pak" />
+    <None Include="src\windows\locales\am.pak" />
+    <None Include="src\windows\locales\ar.pak" />
+    <None Include="src\windows\locales\bg.pak" />
+    <None Include="src\windows\locales\bn.pak" />
+    <None Include="src\windows\locales\ca.pak" />
+    <None Include="src\windows\locales\cs.pak" />
+    <None Include="src\windows\locales\da.pak" />
+    <None Include="src\windows\locales\de.pak" />
+    <None Include="src\windows\locales\el.pak" />
+    <None Include="src\windows\locales\en-GB.pak" />
+    <None Include="src\windows\locales\en-US.pak" />
+    <None Include="src\windows\locales\es.pak" />
+    <None Include="src\windows\locales\es-419.pak" />
+    <None Include="src\windows\locales\et.pak" />
+    <None Include="src\windows\locales\fa.pak" />
+    <None Include="src\windows\locales\fi.pak" />
+    <None Include="src\windows\locales\fil.pak" />
+    <None Include="src\windows\locales\fr.pak" />
+    <None Include="src\windows\locales\gu.pak" />
+    <None Include="src\windows\locales\hi.pak" />
+    <None Include="src\windows\locales\hr.pak" />
+    <None Include="src\windows\locales\hu.pak" />
+    <None Include="src\windows\locales\id.pak" />
+    <None Include="src\windows\locales\it.pak" />
+    <None Include="src\windows\locales\iw.pak" />
+    <None Include="src\windows\locales\ja.pak" />
+    <None Include="src\windows\locales\kn.pak" />
+    <None Include="src\windows\locales\ko.pak" />
+    <None Include="src\windows\locales\lt.pak" />
+    <None Include="src\windows\locales\lv.pak" />
+    <None Include="src\windows\locales\ml.pak" />
+    <None Include="src\windows\locales\mr.pak" />
+    <None Include="src\windows\locales\ms.pak" />
+    <None Include="src\windows\locales\nl.pak" />
+    <None Include="src\windows\locales\no.pak" />
+    <None Include="src\windows\locales\pl.pak" />
+    <None Include="src\windows\locales\pt-BR.pak" />
+    <None Include="src\windows\locales\pt-PT.pak" />
+    <None Include="src\windows\locales\ro.pak" />
+    <None Include="src\windows\locales\ru.pak" />
+    <None Include="src\windows\locales\sk.pak" />
+    <None Include="src\windows\locales\sl.pak" />
+    <None Include="src\windows\locales\sr.pak" />
+    <None Include="src\windows\locales\sv.pak" />
+    <None Include="src\windows\locales\sw.pak" />
+    <None Include="src\windows\locales\ta.pak" />
+    <None Include="src\windows\locales\te.pak" />
+    <None Include="src\windows\locales\th.pak" />
+    <None Include="src\windows\locales\tr.pak" />
+    <None Include="src\windows\locales\uk.pak" />
+    <None Include="src\windows\locales\vi.pak" />
+    <None Include="src\windows\locales\zh-CN.pak" />
+    <None Include="src\chrome\locale\en.l20n" />
+    <None Include="src\chrome\js\lib\angular-md.js" />
+    <None Include="src\chrome\js\lib\marked.js" />
+    <None Include="src\windows\Peerio.exe" />
+    <None Include="src\chrome\package.json" />
+    <None Include="LICENSE.md" />
+    <None Include="src\mac\Peerio.app\Contents\Resources\peerio.icns" />
+    <None Include="src\chrome\locale\locale.json" />
+    <None Include="src\chrome\js\peerio\ui\UI.importContacts.js" />
+    <None Include="src\chrome\js\lib\pouchdb.js" />
+    <None Include="src\chrome\js\lib\papaparse.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\chrome\img\splash.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\2fa.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\blueCheckbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon128.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon256.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon512.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon1024.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\loading.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\notification.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\peerioLogotypeWhite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\peerioLogoWhite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\chrome\img\icon256.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

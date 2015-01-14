@@ -1,0 +1,29 @@
+{
+	"main": "index.html",
+	"name": "Peerio",
+	"author": "Technologies Peerio Inc.",
+	"description": "Secure message and file sharing for everyone. Our worldwide cloud storage lets you work anywhere, while end-to-end encryption keeps your data safe everywhere.",
+	"version": "1.0.0",
+	"keywords": [
+		"peerio",
+		"encrypted messages",
+		"encrypted email",
+		"file sharing"
+	],
+	"window": {
+		"title": "Peerio",
+		"icon": "img/icon32.png",
+		"toolbar": false,
+		"frame": true,
+		"width": 1100,
+		"height": 670,
+		"position": "center",
+		"min_width": 1100,
+		"min_height": 670,
+		"max_width": 1920,
+		"max_height": 1080
+	},
+	"dependencies": {
+		"node-notifier": "latest"
+	}
+}
